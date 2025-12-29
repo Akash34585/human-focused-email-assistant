@@ -1,0 +1,67 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# ----------------------------
+# Environment & secrets
+# ----------------------------
+.env
+.env.*
+*.env
+
+# OAuth / API credentials
+credentials.json
+service_account.json
+token.json
+tokens.json
+token.pickle
+
+# ----------------------------
+# Data & generated outputs
+# ----------------------------
+data/
+*.json
+
+# (Optional) allow schema examples
+!data/.gitkeep
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# OS / Editor junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# Docs / exports (optional)
+# ----------------------------
+*.docx
+*.pdf
+
+# ----------------------------
+# Temporary files
+# ----------------------------
+*.tmp
+*.bak
